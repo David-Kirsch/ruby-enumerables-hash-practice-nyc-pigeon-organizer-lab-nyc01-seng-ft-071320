@@ -8,9 +8,7 @@ def nyc_pigeon_organizer(data)
       names.each do |name|
         binding.pry
         if(!pigeon_list[name])
-             binding.pry
           pigeon_list[name] = {}
-          puts "hello"
         end
       end
     end
