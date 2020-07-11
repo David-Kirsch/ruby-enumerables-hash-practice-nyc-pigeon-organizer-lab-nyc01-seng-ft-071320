@@ -2,7 +2,8 @@ require 'pry'
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  data.map do |key, value|
+  
+  data.each do |key, value|
     value.each do |attributes, names|
       names.each do |name|
         if()
