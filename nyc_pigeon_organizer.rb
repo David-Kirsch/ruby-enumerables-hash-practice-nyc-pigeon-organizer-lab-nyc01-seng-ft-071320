@@ -7,8 +7,8 @@ def nyc_pigeon_organizer(data)
     value.each do |attributes, names|
       names.each do |name|
         if(pigeon_list[name] == false)
+             binding.pry
           pigeon_list[name] = []
-          binding.pry
           puts "hello"
         end
       end
